@@ -1,0 +1,2672 @@
+[
+  {
+    "external_integration": [
+      {
+        "id": "61a0ff07-26c8-47c7-a123-839ac6bf25fe",
+        "service_name": "Google Analytics",
+        "status": "Active",
+        "api_key": "abc123",
+        "api_secret": "secret1",
+        "created_at": "2023-09-15T01:21:09.555Z",
+        "updated_at": "2023-09-14T14:24:39.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3196d9e5-168e-4ad8-b1e4-3717b2b1e37e",
+        "service_name": "Mailchimp",
+        "status": "Inactive",
+        "api_key": "def456",
+        "api_secret": "secret2",
+        "created_at": "2023-09-15T03:02:11.249Z",
+        "updated_at": "2023-09-14T09:22:02.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de02e7a1-e149-4799-90ed-159b10f9ee0a",
+        "service_name": "Salesforce",
+        "status": "Pending",
+        "api_key": "ghi789",
+        "api_secret": "secret3",
+        "created_at": "2023-09-14T05:32:15.830Z",
+        "updated_at": "2023-09-14T12:32:12.856Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f3c9fc6-08cb-4956-97c1-e6c2501cc2ba",
+        "service_name": "Zendesk",
+        "status": "Disabled",
+        "api_key": "jkl012",
+        "api_secret": "secret4",
+        "created_at": "2023-09-15T00:24:26.251Z",
+        "updated_at": "2023-09-14T21:01:40.870Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1378b9ab-e7c5-41b3-ba3b-828c3fb44200",
+        "service_name": "Shopify",
+        "status": "Enabled",
+        "api_key": "mno345",
+        "api_secret": "secret5",
+        "created_at": "2023-09-14T08:00:13.463Z",
+        "updated_at": "2023-09-15T01:06:52.597Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "10bdbbfb-0e34-4d99-9db1-92b48ba2a569",
+        "title": "Software Engineer",
+        "description": "Seeking a skilled software engineer",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T14:42:34.435Z",
+        "updated_at": "2023-09-14T21:53:32.265Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d95f931f-b18b-41ce-9d78-3d5a18ff70b1",
+        "title": "Marketing Manager",
+        "description": "Looking for an experienced marketing manager",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T19:15:19.251Z",
+        "updated_at": "2023-09-14T17:26:11.781Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "531d4fcd-75bc-4476-85ea-ed3335dd775b",
+        "title": "Sales Representative",
+        "description": "Join our sales team",
+        "category": "Sales",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T16:51:28.328Z",
+        "updated_at": "2023-09-14T14:29:35.515Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9290867c-6f60-425c-99e4-0b3cdfae57b4",
+        "title": "Data Analyst",
+        "description": "Analyzing data to drive business insights",
+        "category": "Analytics",
+        "experience_level": "Managerial",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T15:37:57.328Z",
+        "updated_at": "2023-09-14T15:49:20.254Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ba95277-9df8-42bc-8c26-b414fbe6024c",
+        "title": "Product Manager",
+        "description": "Manage product development lifecycle",
+        "category": "Product Management",
+        "experience_level": "Executive",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-15T01:38:19.798Z",
+        "updated_at": "2023-09-14T21:57:35.661Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "0e3f39e7-d2d1-4109-811d-ee1aa7db79b0",
+        "rating": 35245,
+        "comment": "Great company to work with",
+        "created_at": "2023-09-14T05:10:53.556Z",
+        "updated_at": "2023-09-14T05:54:38.249Z",
+        "job_id": "10bdbbfb-0e34-4d99-9db1-92b48ba2a569",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf709f9f-ea50-48e7-bc82-357325a53df0",
+        "rating": 84619,
+        "comment": "Excellent service provided",
+        "created_at": "2023-09-14T22:12:35.825Z",
+        "updated_at": "2023-09-14T23:38:15.862Z",
+        "job_id": "8ba95277-9df8-42bc-8c26-b414fbe6024c",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0ca0b18-5476-4ac5-aea3-3bfe1fa2c481",
+        "rating": 41502,
+        "comment": "Highly recommended",
+        "created_at": "2023-09-14T23:19:28.059Z",
+        "updated_at": "2023-09-14T18:51:25.300Z",
+        "job_id": "10bdbbfb-0e34-4d99-9db1-92b48ba2a569",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e341b80-ea6f-476e-ac28-9bd7332956d1",
+        "rating": 58311,
+        "comment": "Impressive quality of work",
+        "created_at": "2023-09-14T11:03:11.973Z",
+        "updated_at": "2023-09-14T14:05:18.698Z",
+        "job_id": "d95f931f-b18b-41ce-9d78-3d5a18ff70b1",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "987bfa22-0b4e-4e85-b02a-9aba08972409",
+        "rating": 24106,
+        "comment": "Very satisfied with the results",
+        "created_at": "2023-09-14T18:24:49.339Z",
+        "updated_at": "2023-09-14T05:31:16.238Z",
+        "job_id": "531d4fcd-75bc-4476-85ea-ed3335dd775b",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "f143aa77-2ba4-4824-8cdf-61a80cbdb8f6",
+        "amount": 72691,
+        "proposal": "Offering competitive pricing",
+        "status": "Submitted",
+        "duration": 9765,
+        "created_at": "2023-09-14T21:54:36.634Z",
+        "updated_at": "2023-09-14T06:38:00.201Z",
+        "job_id": "531d4fcd-75bc-4476-85ea-ed3335dd775b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c95c6097-8448-4939-adb6-6faee6630aeb",
+        "amount": 26044,
+        "proposal": "Providing top-notch services",
+        "status": "Under Review",
+        "duration": 83639,
+        "created_at": "2023-09-14T04:20:46.142Z",
+        "updated_at": "2023-09-14T16:46:37.045Z",
+        "job_id": "10bdbbfb-0e34-4d99-9db1-92b48ba2a569",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf1a8d4d-5606-464b-8631-65a15c89ce7f",
+        "amount": 87932,
+        "proposal": "Delivering exceptional value",
+        "status": "Accepted",
+        "duration": 68462,
+        "created_at": "2023-09-15T02:33:29.548Z",
+        "updated_at": "2023-09-14T04:58:45.786Z",
+        "job_id": "8ba95277-9df8-42bc-8c26-b414fbe6024c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e7b0a9e-f886-47d5-ae97-84b35d901ed0",
+        "amount": 85660,
+        "proposal": "Ensuring timely completion",
+        "status": "Rejected",
+        "duration": 61060,
+        "created_at": "2023-09-14T17:47:31.773Z",
+        "updated_at": "2023-09-14T07:14:26.940Z",
+        "job_id": "8ba95277-9df8-42bc-8c26-b414fbe6024c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe7ce677-b6c7-4286-b1a9-5180d15739ea",
+        "amount": 6919,
+        "proposal": "Guaranteeing customer satisfaction",
+        "status": "On Hold",
+        "duration": 48343,
+        "created_at": "2023-09-14T06:23:25.445Z",
+        "updated_at": "2023-09-15T03:02:33.237Z",
+        "job_id": "d95f931f-b18b-41ce-9d78-3d5a18ff70b1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96d08b54-4966-47a9-8c3d-83fa21464e87",
+        "email": "Madisen62@yahoo.com",
+        "firstName": "Ines",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1176.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d326cd6d-a15d-4b9b-9342-f174b6ba1383",
+        "email": "Eldon_Kovacek@hotmail.com",
+        "firstName": "Roberto",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36510035",
+        "tenantId": null
+      },
+      {
+        "reference": "d35a80cc-d84a-4120-9767-e1b5e04519de",
+        "email": "Elizabeth35@gmail.com",
+        "firstName": "Flossie",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47c80b2f-9618-49eb-b2b1-1291d4923179",
+        "email": "Vincent_Thiel@gmail.com",
+        "firstName": "Bridie",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/528.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "017ee708-a523-456d-9f53-44aebbdd3b1b",
+        "email": "Anna.Ward51@hotmail.com",
+        "firstName": "Kaelyn",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "c2ec2250-89b5-4fbc-ac36-83e7ae8137c9",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "abc123",
+        "api_secret": "secret1",
+        "created_at": "2023-09-14T03:51:16.127Z",
+        "updated_at": "2023-09-14T21:34:19.133Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6be15f53-d90b-4d65-a665-d5e5c8c93675",
+        "service_name": "Email Marketing",
+        "status": "Inactive",
+        "api_key": "def456",
+        "api_secret": "secret2",
+        "created_at": "2023-09-14T05:15:08.188Z",
+        "updated_at": "2023-09-14T09:03:38.300Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5abba54a-196b-4afd-97a8-e03687d0ef2e",
+        "service_name": "CRM",
+        "status": "Pending",
+        "api_key": "ghi789",
+        "api_secret": "secret3",
+        "created_at": "2023-09-14T14:06:42.023Z",
+        "updated_at": "2023-09-14T05:22:02.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb887f1b-bbbd-4c51-abd4-9609fde4a51f",
+        "service_name": "Analytics",
+        "status": "Suspended",
+        "api_key": "jkl012",
+        "api_secret": "secret4",
+        "created_at": "2023-09-14T23:57:54.559Z",
+        "updated_at": "2023-09-14T15:21:49.607Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8822d249-fa1e-4806-b478-0e1dd440d788",
+        "service_name": "SMS Gateway",
+        "status": "Disabled",
+        "api_key": "mno345",
+        "api_secret": "secret5",
+        "created_at": "2023-09-14T11:37:19.986Z",
+        "updated_at": "2023-09-14T05:14:46.452Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "71d6e16f-4d11-4063-9dd0-0653c0053549",
+        "title": "Software Engineer",
+        "description": "Responsible for developing and maintaining software applications",
+        "category": "IT",
+        "experience_level": "Entry-level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T04:11:53.754Z",
+        "updated_at": "2023-09-14T07:52:19.550Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "338b2ed4-f007-4e5e-9eb4-ad70513faa8e",
+        "title": "Marketing Manager",
+        "description": "Developing marketing strategies and campaigns",
+        "category": "Marketing",
+        "experience_level": "Mid-level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T22:49:29.178Z",
+        "updated_at": "2023-09-15T03:08:37.178Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bcee9de3-a67e-45ed-8f4c-e874be91b56d",
+        "title": "Sales Representative",
+        "description": "Selling products and services to customers",
+        "category": "Sales",
+        "experience_level": "Senior",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T08:42:13.628Z",
+        "updated_at": "2023-09-14T10:28:04.645Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0526346b-3e20-4442-9684-a68c68733b88",
+        "title": "Data Analyst",
+        "description": "Analyzing data to identify trends and insights",
+        "category": "Analytics",
+        "experience_level": "Manager",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T21:58:13.206Z",
+        "updated_at": "2023-09-14T11:28:40.431Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "114e312e-e59c-4c3f-8a5e-cd951ee007c5",
+        "title": "Product Manager",
+        "description": "Managing the development and launch of new products",
+        "category": "Product Management",
+        "experience_level": "Director",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T23:23:13.995Z",
+        "updated_at": "2023-09-14T16:18:08.271Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "7bd91fe0-1940-4739-adbe-1db670d27134",
+        "rating": 98597,
+        "comment": "Great product!",
+        "created_at": "2023-09-14T07:01:41.350Z",
+        "updated_at": "2023-09-15T03:21:50.598Z",
+        "job_id": "114e312e-e59c-4c3f-8a5e-cd951ee007c5",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f29ad459-90f3-4751-8058-541dd54ae4b9",
+        "rating": 71002,
+        "comment": "Excellent service!",
+        "created_at": "2023-09-15T02:11:10.278Z",
+        "updated_at": "2023-09-14T19:53:21.120Z",
+        "job_id": "338b2ed4-f007-4e5e-9eb4-ad70513faa8e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fa18ef9-4192-4b2d-8f00-8d21e520a1b7",
+        "rating": 76991,
+        "comment": "Highly recommended!",
+        "created_at": "2023-09-14T19:17:30.171Z",
+        "updated_at": "2023-09-15T00:14:29.886Z",
+        "job_id": "0526346b-3e20-4442-9684-a68c68733b88",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53390691-1318-4205-a0af-09de2ac86d51",
+        "rating": 84718,
+        "comment": "Very satisfied with the experience.",
+        "created_at": "2023-09-14T11:27:31.134Z",
+        "updated_at": "2023-09-15T00:36:42.126Z",
+        "job_id": "bcee9de3-a67e-45ed-8f4c-e874be91b56d",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51d6fa66-1380-40a7-bd97-7e8357a2a65a",
+        "rating": 3909,
+        "comment": "Could be improved.",
+        "created_at": "2023-09-15T02:05:09.005Z",
+        "updated_at": "2023-09-14T21:08:07.654Z",
+        "job_id": "bcee9de3-a67e-45ed-8f4c-e874be91b56d",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "15a3f7a3-8ee8-4121-a309-12d908b59712",
+        "amount": 87060,
+        "proposal": "Provide a detailed project plan",
+        "status": "Pending",
+        "duration": 66711,
+        "created_at": "2023-09-14T10:44:36.390Z",
+        "updated_at": "2023-09-14T23:40:48.785Z",
+        "job_id": "bcee9de3-a67e-45ed-8f4c-e874be91b56d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c746cec-678b-4973-8209-7772fe134126",
+        "amount": 16504,
+        "proposal": "Deliver high-quality work within the deadline",
+        "status": "Accepted",
+        "duration": 55569,
+        "created_at": "2023-09-14T15:03:38.673Z",
+        "updated_at": "2023-09-14T23:58:47.626Z",
+        "job_id": "bcee9de3-a67e-45ed-8f4c-e874be91b56d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5bd2ab6-c40b-4697-983d-e0879541a424",
+        "amount": 88129,
+        "proposal": "Offer competitive pricing",
+        "status": "Declined",
+        "duration": 64861,
+        "created_at": "2023-09-14T09:33:37.735Z",
+        "updated_at": "2023-09-14T03:44:01.088Z",
+        "job_id": "0526346b-3e20-4442-9684-a68c68733b88",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d33e4422-70ed-4bd7-9fd6-d2b0caaaa7aa",
+        "amount": 91270,
+        "proposal": "Ensure effective communication throughout the project",
+        "status": "In Progress",
+        "duration": 91640,
+        "created_at": "2023-09-14T21:22:53.467Z",
+        "updated_at": "2023-09-14T10:36:48.546Z",
+        "job_id": "114e312e-e59c-4c3f-8a5e-cd951ee007c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e3b9bbd-fc9d-4af8-97fd-192e21003479",
+        "amount": 894,
+        "proposal": "Provide regular progress updates",
+        "status": "Completed",
+        "duration": 82998,
+        "created_at": "2023-09-14T19:14:13.414Z",
+        "updated_at": "2023-09-14T21:21:10.784Z",
+        "job_id": "71d6e16f-4d11-4063-9dd0-0653c0053549",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "df97528d-1f21-478d-b05e-0d9db68b6c5f",
+        "email": "Christiana.Murphy84@gmail.com",
+        "firstName": "Creola",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/298.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cb177be-7288-43c0-9bd4-21f705f03991",
+        "email": "Hollis50@gmail.com",
+        "firstName": "Serenity",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68986617",
+        "tenantId": null
+      },
+      {
+        "reference": "5e99a91b-aecb-4b81-a9f6-efb0ccfe9df0",
+        "email": "Keshaun_Lehner@yahoo.com",
+        "firstName": "Magnolia",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48378562",
+        "tenantId": null
+      },
+      {
+        "reference": "3161d9fc-ab74-4b83-ad9a-a101052294ce",
+        "email": "Shanie_Wisoky@hotmail.com",
+        "firstName": "Raleigh",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f241a1d6-7ae8-4122-bbc0-99b25e389674",
+        "email": "Heather62@hotmail.com",
+        "firstName": "Lemuel",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1179.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "b272b979-d5b7-49d5-9425-afaef6a4c13e",
+        "service_name": "Service A",
+        "status": "Active",
+        "api_key": "abc123",
+        "api_secret": "secret1",
+        "created_at": "2023-09-15T00:07:03.042Z",
+        "updated_at": "2023-09-14T19:16:43.875Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "318f4a32-efa5-46be-8c1b-db91444f66a5",
+        "service_name": "Service B",
+        "status": "Inactive",
+        "api_key": "def456",
+        "api_secret": "secret2",
+        "created_at": "2023-09-15T01:16:05.750Z",
+        "updated_at": "2023-09-14T20:57:58.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b213f68-25aa-4888-b4e7-b6ef19a93a9e",
+        "service_name": "Service C",
+        "status": "Pending",
+        "api_key": "ghi789",
+        "api_secret": "secret3",
+        "created_at": "2023-09-14T09:53:04.253Z",
+        "updated_at": "2023-09-15T00:03:57.423Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a92000ca-ae4e-4dc1-b373-39b88de281c4",
+        "service_name": "Service D",
+        "status": "Disabled",
+        "api_key": "jkl012",
+        "api_secret": "secret4",
+        "created_at": "2023-09-14T23:18:46.854Z",
+        "updated_at": "2023-09-14T12:41:48.207Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b57a7c63-2437-45b5-9dd8-ab3e702732e9",
+        "service_name": "Service E",
+        "status": "Enabled",
+        "api_key": "mno345",
+        "api_secret": "secret5",
+        "created_at": "2023-09-14T17:38:19.205Z",
+        "updated_at": "2023-09-14T12:04:20.594Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "1d2e7c5d-ab17-429d-89b4-f5ceaf44db81",
+        "title": "Software Engineer",
+        "description": "We are seeking a talented individual...",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T19:41:19.655Z",
+        "updated_at": "2023-09-14T16:31:16.790Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7171a523-5710-4d69-afc1-985b95fdc8b7",
+        "title": "Marketing Manager",
+        "description": "Join our team and make a difference in...",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T06:53:41.462Z",
+        "updated_at": "2023-09-14T15:43:43.980Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e11e737-8205-442c-9567-9c3a77a52c1c",
+        "title": "Financial Analyst",
+        "description": "The ideal candidate will have experience in...",
+        "category": "Finance",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-15T00:30:47.184Z",
+        "updated_at": "2023-09-14T14:18:37.323Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e495ba1-8995-4a4f-a9ea-7a2c1c4ab9c1",
+        "title": "Sales Representative",
+        "description": "Responsibilities include...",
+        "category": "Sales",
+        "experience_level": "Manager",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T08:52:04.700Z",
+        "updated_at": "2023-09-14T06:09:41.463Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f7adb333-75d4-487d-b117-d0dabfb6ca18",
+        "title": "Operations Coordinator",
+        "description": "Requirements for this role include...",
+        "category": "Operations",
+        "experience_level": "Director",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T03:35:20.631Z",
+        "updated_at": "2023-09-14T14:39:54.219Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "c149ee32-bbe0-4883-903b-228720fc8174",
+        "rating": 66676,
+        "comment": "Great company to work for!",
+        "created_at": "2023-09-14T12:20:38.665Z",
+        "updated_at": "2023-09-14T05:54:19.342Z",
+        "job_id": "5e495ba1-8995-4a4f-a9ea-7a2c1c4ab9c1",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3eb6fe0c-ab43-4506-be31-ab5238e4feb5",
+        "rating": 12485,
+        "comment": "I had a positive experience with...",
+        "created_at": "2023-09-14T19:27:43.972Z",
+        "updated_at": "2023-09-15T01:38:32.595Z",
+        "job_id": "1d2e7c5d-ab17-429d-89b4-f5ceaf44db81",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13e18d84-fc1c-45fc-87e5-920246569e85",
+        "rating": 19580,
+        "comment": "Highly recommended!",
+        "created_at": "2023-09-14T05:43:44.803Z",
+        "updated_at": "2023-09-14T04:56:37.759Z",
+        "job_id": "7171a523-5710-4d69-afc1-985b95fdc8b7",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40232a52-f077-421e-a2ea-3320b6915550",
+        "rating": 96218,
+        "comment": "The service provided was excellent.",
+        "created_at": "2023-09-14T19:10:50.045Z",
+        "updated_at": "2023-09-15T03:11:23.750Z",
+        "job_id": "7e11e737-8205-442c-9567-9c3a77a52c1c",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98b6bec3-2445-4302-ba4e-79f2da419dd1",
+        "rating": 48930,
+        "comment": "I am impressed with the quality of work.",
+        "created_at": "2023-09-14T15:22:37.660Z",
+        "updated_at": "2023-09-15T02:47:10.481Z",
+        "job_id": "7e11e737-8205-442c-9567-9c3a77a52c1c",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "b2aa9391-4fff-485e-ae8f-31b9a2c35b66",
+        "amount": 4301,
+        "proposal": "I can deliver the project within the specified timeline.",
+        "status": "Submitted",
+        "duration": 48490,
+        "created_at": "2023-09-14T20:55:45.202Z",
+        "updated_at": "2023-09-15T02:16:54.623Z",
+        "job_id": "f7adb333-75d4-487d-b117-d0dabfb6ca18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff70c73c-f141-4f29-bcd8-6b6b6580ca9f",
+        "amount": 88562,
+        "proposal": "My proposal includes a detailed plan for...",
+        "status": "Accepted",
+        "duration": 96765,
+        "created_at": "2023-09-14T11:33:43.975Z",
+        "updated_at": "2023-09-15T02:57:40.463Z",
+        "job_id": "7e11e737-8205-442c-9567-9c3a77a52c1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb140098-1df8-49e7-9ef1-f680343fa50e",
+        "amount": 56572,
+        "proposal": "I have extensive experience in similar projects.",
+        "status": "Rejected",
+        "duration": 64320,
+        "created_at": "2023-09-14T22:56:30.555Z",
+        "updated_at": "2023-09-14T04:53:15.929Z",
+        "job_id": "1d2e7c5d-ab17-429d-89b4-f5ceaf44db81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66ed418a-0848-473a-bffb-1354f959f584",
+        "amount": 23029,
+        "proposal": "I am confident in my ability to complete the task.",
+        "status": "Under Review",
+        "duration": 1894,
+        "created_at": "2023-09-14T08:23:33.938Z",
+        "updated_at": "2023-09-14T04:50:06.823Z",
+        "job_id": "7e11e737-8205-442c-9567-9c3a77a52c1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c6fbd67-0ee9-4ba0-8b95-22a2794452c2",
+        "amount": 99432,
+        "proposal": "I offer competitive pricing for the project.",
+        "status": "Withdrawn",
+        "duration": 85210,
+        "created_at": "2023-09-14T19:47:20.544Z",
+        "updated_at": "2023-09-15T02:05:13.543Z",
+        "job_id": "1d2e7c5d-ab17-429d-89b4-f5ceaf44db81",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "816192c8-d26d-4d80-a96e-31ebaef423fa",
+        "email": "Ernestina.Zulauf@yahoo.com",
+        "firstName": "George",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49137788",
+        "tenantId": null
+      },
+      {
+        "reference": "8edec5e1-2cc6-42e7-87f3-e45717cb2c56",
+        "email": "Connie_Quigley@hotmail.com",
+        "firstName": "Emmett",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89034231",
+        "tenantId": null
+      },
+      {
+        "reference": "714cfa05-7919-42a2-a72e-43da299e9692",
+        "email": "Ellie.Jacobi@hotmail.com",
+        "firstName": "Elenora",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/353.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68d73c07-b0e5-4828-ab41-a198425548ac",
+        "email": "Delmer_Weimann@yahoo.com",
+        "firstName": "Tremayne",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1229.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "066fd7ce-604c-416f-a9d7-3556f50caab7",
+        "email": "Sheila_Hahn@hotmail.com",
+        "firstName": "Daisha",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45506051",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "e9318b9d-7c17-4d1d-88a9-e38ef2faf901",
+        "service_name": "Google Analytics",
+        "status": "Active",
+        "api_key": "abc123",
+        "api_secret": "secret1",
+        "created_at": "2023-09-15T03:06:54.821Z",
+        "updated_at": "2023-09-14T16:18:15.315Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da4fc655-d74a-4854-a69c-3771e420220f",
+        "service_name": "MailChimp",
+        "status": "Inactive",
+        "api_key": "def456",
+        "api_secret": "secret2",
+        "created_at": "2023-09-14T04:07:09.949Z",
+        "updated_at": "2023-09-15T01:19:44.311Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "513bf9fb-356d-4ec9-9a61-be00975f9ebe",
+        "service_name": "Salesforce",
+        "status": "Pending",
+        "api_key": "ghi789",
+        "api_secret": "secret3",
+        "created_at": "2023-09-14T11:19:20.867Z",
+        "updated_at": "2023-09-14T15:55:17.421Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa590857-da6e-47eb-85f3-e09e9f45111e",
+        "service_name": "Zendesk",
+        "status": "Disabled",
+        "api_key": "jkl012",
+        "api_secret": "secret4",
+        "created_at": "2023-09-14T08:06:08.547Z",
+        "updated_at": "2023-09-14T06:00:39.791Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ff427cf-cb97-4c5c-b557-9a1b38de3d06",
+        "service_name": "Shopify",
+        "status": "Enabled",
+        "api_key": "mno345",
+        "api_secret": "secret5",
+        "created_at": "2023-09-15T02:08:38.266Z",
+        "updated_at": "2023-09-14T12:39:19.354Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "124cb882-79f0-493e-89d9-fe3ad96be01b",
+        "title": "Software Engineer",
+        "description": "Join our dynamic team",
+        "category": "IT",
+        "experience_level": "Entry-level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T11:59:26.222Z",
+        "updated_at": "2023-09-14T05:40:12.291Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "077d965a-574d-4105-80d4-e31f2605d11d",
+        "title": "Marketing Manager",
+        "description": "Exciting opportunity",
+        "category": "Marketing",
+        "experience_level": "Mid-level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-15T02:19:38.765Z",
+        "updated_at": "2023-09-14T06:56:11.586Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4bf299c-b939-4490-a2cc-0b86423ef8e8",
+        "title": "Sales Representative",
+        "description": "Make an impact",
+        "category": "Sales",
+        "experience_level": "Senior",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T10:04:17.258Z",
+        "updated_at": "2023-09-14T03:52:32.009Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f546269f-40a0-4988-86f7-658ec6edcd5f",
+        "title": "Data Analyst",
+        "description": "Work with cutting-edge technology",
+        "category": "Analytics",
+        "experience_level": "Manager",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T10:32:51.831Z",
+        "updated_at": "2023-09-14T22:43:16.402Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "60d81cb1-67d1-4502-96b7-2747e28f7386",
+        "title": "Product Designer",
+        "description": "Collaborative work environment",
+        "category": "Design",
+        "experience_level": "Executive",
+        "salary_range": "$130,000+",
+        "created_at": "2023-09-14T18:32:08.459Z",
+        "updated_at": "2023-09-14T21:31:05.697Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "74dd2da8-bf4d-431e-aa5c-81b7367f64c8",
+        "rating": 14982,
+        "comment": "Great company to work for",
+        "created_at": "2023-09-14T22:15:50.810Z",
+        "updated_at": "2023-09-14T23:34:10.115Z",
+        "job_id": "60d81cb1-67d1-4502-96b7-2747e28f7386",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbf5bd0e-581d-488a-a07d-6aeb3abdc068",
+        "rating": 6247,
+        "comment": "Excellent service",
+        "created_at": "2023-09-14T23:42:47.284Z",
+        "updated_at": "2023-09-14T03:48:00.108Z",
+        "job_id": "e4bf299c-b939-4490-a2cc-0b86423ef8e8",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01a6892d-1ac9-46fb-ab5a-634d65a45e06",
+        "rating": 80797,
+        "comment": "Highly recommended",
+        "created_at": "2023-09-14T13:53:36.515Z",
+        "updated_at": "2023-09-14T18:11:10.448Z",
+        "job_id": "124cb882-79f0-493e-89d9-fe3ad96be01b",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b123f2b6-f6ea-45fd-a3bb-15176458a9b4",
+        "rating": 32880,
+        "comment": "Impressed with their professionalism",
+        "created_at": "2023-09-14T23:15:45.178Z",
+        "updated_at": "2023-09-15T00:36:26.010Z",
+        "job_id": "60d81cb1-67d1-4502-96b7-2747e28f7386",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d9083a2-6cb9-4411-814f-0dfe98ace569",
+        "rating": 10181,
+        "comment": "Outstanding experience",
+        "created_at": "2023-09-14T17:19:16.478Z",
+        "updated_at": "2023-09-14T19:53:45.128Z",
+        "job_id": "077d965a-574d-4105-80d4-e31f2605d11d",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "1c48f965-7163-4064-9596-a211399f0cc3",
+        "amount": 7685,
+        "proposal": "Provide detailed project plan",
+        "status": "Submitted",
+        "duration": 40521,
+        "created_at": "2023-09-14T20:43:06.518Z",
+        "updated_at": "2023-09-14T06:29:53.079Z",
+        "job_id": "f546269f-40a0-4988-86f7-658ec6edcd5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0deaa8a-0d22-4977-8f76-ff60523fb013",
+        "amount": 15484,
+        "proposal": "Deliver high-quality work",
+        "status": "Accepted",
+        "duration": 8934,
+        "created_at": "2023-09-14T12:02:54.371Z",
+        "updated_at": "2023-09-14T22:46:47.440Z",
+        "job_id": "e4bf299c-b939-4490-a2cc-0b86423ef8e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f246aea0-552d-471a-bf7a-9e4687a24ac6",
+        "amount": 69984,
+        "proposal": "Meet all project deadlines",
+        "status": "Declined",
+        "duration": 98056,
+        "created_at": "2023-09-14T21:03:01.700Z",
+        "updated_at": "2023-09-14T08:23:11.285Z",
+        "job_id": "60d81cb1-67d1-4502-96b7-2747e28f7386",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f39bb3c-5527-4c0a-99e3-02720d1a8c93",
+        "amount": 77480,
+        "proposal": "Offer competitive pricing",
+        "status": "Under review",
+        "duration": 91349,
+        "created_at": "2023-09-14T21:12:02.398Z",
+        "updated_at": "2023-09-14T06:56:55.638Z",
+        "job_id": "e4bf299c-b939-4490-a2cc-0b86423ef8e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a862e39-2f23-4818-a21a-86d475bc1f86",
+        "amount": 52835,
+        "proposal": "Ensure customer satisfaction",
+        "status": "In progress",
+        "duration": 70473,
+        "created_at": "2023-09-14T06:34:21.846Z",
+        "updated_at": "2023-09-14T10:12:42.352Z",
+        "job_id": "077d965a-574d-4105-80d4-e31f2605d11d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ce364be2-d1a2-4785-8754-8b5fa9913b0d",
+        "email": "Jess8@yahoo.com",
+        "firstName": "Dina",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/861.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c1710b1d-507e-4232-9d21-db31a70f93dc",
+        "email": "Lafayette.Swift@hotmail.com",
+        "firstName": "Karson",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/134.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81dc83eb-8303-4814-913b-357364bcf077",
+        "email": "Dejon.Kertzmann96@yahoo.com",
+        "firstName": "Katrina",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1756364",
+        "tenantId": null
+      },
+      {
+        "reference": "fb5e1df9-ae6c-41de-93c1-1c957143c3be",
+        "email": "Amalia.Kihn19@yahoo.com",
+        "firstName": "Peyton",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45420674",
+        "tenantId": null
+      },
+      {
+        "reference": "78d78d0c-2b82-41b2-bb40-f9dcb9597165",
+        "email": "Gordon.Steuber99@yahoo.com",
+        "firstName": "Beatrice",
+        "lastName": "Weissnat-Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14275611",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "37715702-4f39-48b4-95cc-273cce7743ca",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "a1b2c3d4e5",
+        "api_secret": "s5t4r3o2n1g0",
+        "created_at": "2023-09-14T17:39:37.731Z",
+        "updated_at": "2023-09-14T12:00:12.810Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a00f3d5b-056d-4f18-a99d-e670a30ed904",
+        "service_name": "Email Marketing",
+        "status": "Inactive",
+        "api_key": "f6g7h8i9j0",
+        "api_secret": "y5x4w3v2u1",
+        "created_at": "2023-09-14T13:37:54.141Z",
+        "updated_at": "2023-09-14T18:21:18.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "669c9fa2-e934-4a7e-b86a-9d3c3f4873c2",
+        "service_name": "SMS Gateway",
+        "status": "Pending",
+        "api_key": "k1l2m3n4o5",
+        "api_secret": "0t9s8r7q6p5",
+        "created_at": "2023-09-14T07:10:28.601Z",
+        "updated_at": "2023-09-14T15:25:49.470Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b7ffcba-761d-4a18-89e3-fb124656561d",
+        "service_name": "Analytics Platform",
+        "status": "Disabled",
+        "api_key": "p6q7r8s9t0",
+        "api_secret": "4o3n2g1r0t9",
+        "created_at": "2023-09-14T20:30:02.881Z",
+        "updated_at": "2023-09-14T13:30:14.487Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a47d698d-1036-4691-a9ec-af1914758bd0",
+        "service_name": "CRM System",
+        "status": "Enabled",
+        "api_key": "u1v2w3x4y5",
+        "api_secret": "5y4x3w2v1u0",
+        "created_at": "2023-09-14T04:08:08.039Z",
+        "updated_at": "2023-09-14T06:57:52.317Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "69144612-87c3-461d-9d68-5348b43a6743",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-15T02:49:00.406Z",
+        "updated_at": "2023-09-14T08:01:14.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75f079ee-e264-4bd4-8df5-307fc0f60a1c",
+        "title": "Marketing Manager",
+        "description": "Create and implement marketing campaigns",
+        "category": "Marketing",
+        "experience_level": "Intermediate",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T10:59:37.756Z",
+        "updated_at": "2023-09-14T15:56:38.488Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2008d841-478b-4773-9822-654771edce9e",
+        "title": "Sales Representative",
+        "description": "Promote and sell products or services",
+        "category": "Sales",
+        "experience_level": "Senior",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-15T02:15:50.786Z",
+        "updated_at": "2023-09-14T07:00:11.243Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31c48a84-3882-4ed8-94ef-ef090f106c06",
+        "title": "Medical Doctor",
+        "description": "Diagnose and treat medical conditions",
+        "category": "Healthcare",
+        "experience_level": "Expert",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T17:25:01.623Z",
+        "updated_at": "2023-09-14T09:42:20.912Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "18a3143a-2689-457a-b730-c5ecbc17f739",
+        "title": "Project Manager",
+        "description": "Plan and oversee project execution",
+        "category": "Project Management",
+        "experience_level": "Managerial",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-15T00:43:43.514Z",
+        "updated_at": "2023-09-14T03:42:24.460Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "61c31a05-ee4c-4d23-aec7-c1603e2ce0f0",
+        "rating": 27976,
+        "comment": "Great product!",
+        "created_at": "2023-09-14T17:44:21.594Z",
+        "updated_at": "2023-09-14T04:40:21.307Z",
+        "job_id": "31c48a84-3882-4ed8-94ef-ef090f106c06",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5362518e-4490-45e8-92e1-a6f52d0b0059",
+        "rating": 31441,
+        "comment": "Excellent service!",
+        "created_at": "2023-09-14T19:18:02.266Z",
+        "updated_at": "2023-09-14T06:49:41.132Z",
+        "job_id": "2008d841-478b-4773-9822-654771edce9e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "962d4fba-ce9d-4b96-aa50-5ff2f3c4dac7",
+        "rating": 2089,
+        "comment": "Highly recommended!",
+        "created_at": "2023-09-14T08:47:33.082Z",
+        "updated_at": "2023-09-14T17:19:25.677Z",
+        "job_id": "69144612-87c3-461d-9d68-5348b43a6743",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92333159-abe5-42ab-9975-e1b10fedbfac",
+        "rating": 56933,
+        "comment": "Impressive quality!",
+        "created_at": "2023-09-15T02:19:49.864Z",
+        "updated_at": "2023-09-15T00:15:58.626Z",
+        "job_id": "2008d841-478b-4773-9822-654771edce9e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0f8e3eb-a0b2-4f14-8cd7-f72d38932a9b",
+        "rating": 54232,
+        "comment": "Outstanding performance!",
+        "created_at": "2023-09-15T00:03:09.041Z",
+        "updated_at": "2023-09-14T18:30:21.655Z",
+        "job_id": "69144612-87c3-461d-9d68-5348b43a6743",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "33129b08-1ca3-4094-983d-e3a069a256a8",
+        "amount": 59337,
+        "proposal": "Provide comprehensive solution",
+        "status": "Submitted",
+        "duration": 59329,
+        "created_at": "2023-09-14T12:05:24.740Z",
+        "updated_at": "2023-09-14T04:59:22.419Z",
+        "job_id": "18a3143a-2689-457a-b730-c5ecbc17f739",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "262fbca7-e2d8-4832-b0f4-0359d32d4880",
+        "amount": 33284,
+        "proposal": "Deliver within tight deadline",
+        "status": "Accepted",
+        "duration": 88057,
+        "created_at": "2023-09-14T15:26:51.132Z",
+        "updated_at": "2023-09-14T22:23:29.733Z",
+        "job_id": "69144612-87c3-461d-9d68-5348b43a6743",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b0422eb-4bd7-4a61-b8b4-5cf9be4b88cf",
+        "amount": 29180,
+        "proposal": "Offer competitive pricing",
+        "status": "Declined",
+        "duration": 41997,
+        "created_at": "2023-09-14T03:58:27.983Z",
+        "updated_at": "2023-09-14T13:15:03.016Z",
+        "job_id": "18a3143a-2689-457a-b730-c5ecbc17f739",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7026a701-877b-4672-8b44-a0f7274f25ec",
+        "amount": 83580,
+        "proposal": "Ensure high customer satisfaction",
+        "status": "Under Review",
+        "duration": 74691,
+        "created_at": "2023-09-14T10:14:57.309Z",
+        "updated_at": "2023-09-14T07:29:04.044Z",
+        "job_id": "75f079ee-e264-4bd4-8df5-307fc0f60a1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31d315e9-383e-4f25-9c90-6123a44ce072",
+        "amount": 19142,
+        "proposal": "Implement innovative strategies",
+        "status": "Expired",
+        "duration": 58450,
+        "created_at": "2023-09-14T22:50:28.132Z",
+        "updated_at": "2023-09-14T08:41:13.405Z",
+        "job_id": "2008d841-478b-4773-9822-654771edce9e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "075da608-bb15-432c-89c7-32dc6b71e4a1",
+        "email": "Jett_Bogisich24@hotmail.com",
+        "firstName": "Laila",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2dbedfa0-df33-4505-a206-52d537048264",
+        "email": "Junius_Schumm8@gmail.com",
+        "firstName": "Abbey",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31544482",
+        "tenantId": null
+      },
+      {
+        "reference": "1f3adbad-9b9b-42f6-8925-f8ee88de4c2c",
+        "email": "Elisabeth_Jacobson24@yahoo.com",
+        "firstName": "Brando",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81322276",
+        "tenantId": null
+      },
+      {
+        "reference": "0c398ea3-87dd-4eb6-b3b3-8fe1ac14cc8e",
+        "email": "Tamia.Carter71@yahoo.com",
+        "firstName": "Zita",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72339060",
+        "tenantId": null
+      },
+      {
+        "reference": "b9556393-e0b1-4cea-8710-7649486db9e1",
+        "email": "Milo.Waters@gmail.com",
+        "firstName": "Frida",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29849465",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "d3c94756-9211-4150-b221-43cdd6dc1f52",
+        "service_name": "Analytics",
+        "status": "Active",
+        "api_key": "a1b2c3d4e5f6g7h8i9j0",
+        "api_secret": "9876543210abcdefghij",
+        "created_at": "2023-09-14T23:12:43.400Z",
+        "updated_at": "2023-09-15T02:31:03.388Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c239b3f-ffb7-48e8-8186-0136fde203a7",
+        "service_name": "Payment Gateway",
+        "status": "Inactive",
+        "api_key": "k1l2m3n4o5p6q7r8s9",
+        "api_secret": "hgfedcba0987654321",
+        "created_at": "2023-09-14T15:44:55.254Z",
+        "updated_at": "2023-09-15T02:57:15.858Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fb71400-095e-463d-a71e-2e57c815016b",
+        "service_name": "Email Marketing",
+        "status": "Pending",
+        "api_key": "t1u2v3w4x5y6z7a8b9",
+        "api_secret": "zyxwvutsrqponmlkjihg",
+        "created_at": "2023-09-14T09:31:48.483Z",
+        "updated_at": "2023-09-14T23:47:02.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6806ea2b-4f68-4dfe-8f3b-934d2930bcd5",
+        "service_name": "CRM",
+        "status": "Disabled",
+        "api_key": "c1d2e3f4g5h6i7j8k9",
+        "api_secret": "kjihgfedcba0123456789",
+        "created_at": "2023-09-14T20:26:41.970Z",
+        "updated_at": "2023-09-14T03:40:28.458Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f9ccdeb-f2ee-4122-8172-2eb9e52b51f1",
+        "service_name": "SMS Gateway",
+        "status": "Enabled",
+        "api_key": "l1m2n3o4p5q6r7s8t9",
+        "api_secret": "5432109876abcdefghij",
+        "created_at": "2023-09-14T22:26:23.512Z",
+        "updated_at": "2023-09-15T00:12:58.951Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "c32744d4-4b9b-4a08-9707-1734936ddb4e",
+        "title": "Software Engineer",
+        "description": "Seeking a talented individual",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T06:35:42.763Z",
+        "updated_at": "2023-09-15T00:06:16.330Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30761dc5-0450-4ebe-a15c-5fe82ec89ce0",
+        "title": "Marketing Manager",
+        "description": "Join our dynamic team",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-15T03:13:00.337Z",
+        "updated_at": "2023-09-15T02:51:55.815Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a39f8e0-86ac-4afc-a262-ff72b5043510",
+        "title": "Sales Representative",
+        "description": "Exciting opportunity",
+        "category": "Sales",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T15:39:43.906Z",
+        "updated_at": "2023-09-14T20:29:35.217Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "83e0452d-447a-495b-b9c6-15fc708967c8",
+        "title": "Data Analyst",
+        "description": "Work on cutting-edge projects",
+        "category": "Finance",
+        "experience_level": "Manager",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T14:09:33.041Z",
+        "updated_at": "2023-09-14T06:46:40.143Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "72d3cb85-d553-4f46-bc35-abe673057f9c",
+        "title": "Product Designer",
+        "description": "Great benefits package",
+        "category": "Design",
+        "experience_level": "Director",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T22:20:57.139Z",
+        "updated_at": "2023-09-15T02:54:18.908Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "e3a8cbb5-9480-4527-95cb-a2ccef20fe50",
+        "rating": 27592,
+        "comment": "Excellent service!",
+        "created_at": "2023-09-14T20:03:21.791Z",
+        "updated_at": "2023-09-14T11:14:23.054Z",
+        "job_id": "c32744d4-4b9b-4a08-9707-1734936ddb4e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7dcaee6-4b45-4ee3-9498-c4814fe2574a",
+        "rating": 71570,
+        "comment": "Highly recommended",
+        "created_at": "2023-09-14T08:29:20.967Z",
+        "updated_at": "2023-09-15T02:19:34.242Z",
+        "job_id": "c32744d4-4b9b-4a08-9707-1734936ddb4e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac0cd9ed-d2d2-495e-9f07-190b22cd5f7e",
+        "rating": 18133,
+        "comment": "Great experience",
+        "created_at": "2023-09-14T14:11:29.021Z",
+        "updated_at": "2023-09-14T03:39:58.931Z",
+        "job_id": "c32744d4-4b9b-4a08-9707-1734936ddb4e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b6117b9-2c84-4533-8c8e-36e87471f065",
+        "rating": 41006,
+        "comment": "Very satisfied",
+        "created_at": "2023-09-14T11:57:03.886Z",
+        "updated_at": "2023-09-14T20:11:00.012Z",
+        "job_id": "72d3cb85-d553-4f46-bc35-abe673057f9c",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d55bb89-a660-435d-a7a4-39538b61b1da",
+        "rating": 88401,
+        "comment": "Top-notch quality",
+        "created_at": "2023-09-15T02:29:39.804Z",
+        "updated_at": "2023-09-14T19:12:29.204Z",
+        "job_id": "83e0452d-447a-495b-b9c6-15fc708967c8",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "2fac8b29-385e-475f-a49f-45ddeeb59900",
+        "amount": 96114,
+        "proposal": "Provide detailed project plan",
+        "status": "Open",
+        "duration": 24487,
+        "created_at": "2023-09-14T20:22:49.469Z",
+        "updated_at": "2023-09-14T15:06:23.462Z",
+        "job_id": "1a39f8e0-86ac-4afc-a262-ff72b5043510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ea2849-5a90-4941-b466-b240520ad233",
+        "amount": 23890,
+        "proposal": "Deliver within tight deadline",
+        "status": "Closed",
+        "duration": 77567,
+        "created_at": "2023-09-14T07:37:20.033Z",
+        "updated_at": "2023-09-14T11:58:30.452Z",
+        "job_id": "1a39f8e0-86ac-4afc-a262-ff72b5043510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03016871-9c56-4fca-910e-acada0702947",
+        "amount": 6813,
+        "proposal": "Offer competitive pricing",
+        "status": "Pending",
+        "duration": 84343,
+        "created_at": "2023-09-14T13:28:57.017Z",
+        "updated_at": "2023-09-14T12:04:25.588Z",
+        "job_id": "72d3cb85-d553-4f46-bc35-abe673057f9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7736154b-6a1a-4e56-bc8d-c6eda30bfcc9",
+        "amount": 68694,
+        "proposal": "Ensure exceptional quality",
+        "status": "Accepted",
+        "duration": 33934,
+        "created_at": "2023-09-15T03:04:00.426Z",
+        "updated_at": "2023-09-14T07:25:26.431Z",
+        "job_id": "30761dc5-0450-4ebe-a15c-5fe82ec89ce0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "008e1c20-2a80-4cbe-b7fe-da30b15b0f5e",
+        "amount": 51839,
+        "proposal": "Guarantee customer satisfaction",
+        "status": "Rejected",
+        "duration": 50767,
+        "created_at": "2023-09-14T22:54:31.942Z",
+        "updated_at": "2023-09-14T16:56:31.924Z",
+        "job_id": "c32744d4-4b9b-4a08-9707-1734936ddb4e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f66c4ab2-adee-4c17-9fd7-ee04945574af",
+        "email": "Geo31@hotmail.com",
+        "firstName": "Roosevelt",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1016.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3653fe8a-e1f7-48ee-8cec-598fc114efe5",
+        "email": "Haleigh12@hotmail.com",
+        "firstName": "Josephine",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1073.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fe31c63-2a35-40f2-a2d9-c84cf0eb5fe4",
+        "email": "Roosevelt.Turcotte@gmail.com",
+        "firstName": "Ryann",
+        "lastName": "Feest-Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76513541",
+        "tenantId": null
+      },
+      {
+        "reference": "003c6b16-0b88-4e6c-8395-de047d7d97d6",
+        "email": "Marguerite.Sauer@gmail.com",
+        "firstName": "Daisha",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e100c055-48f8-4400-ac32-de64924290be",
+        "email": "Jadon.Weimann@yahoo.com",
+        "firstName": "Cielo",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63430479",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "ca9650db-4592-4a74-93f5-d2efc81fc9b1",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "a1b2c3d4e5f6g7h8i9j0",
+        "api_secret": "s3cr3tK3y",
+        "created_at": "2023-09-14T06:20:25.016Z",
+        "updated_at": "2023-09-15T00:15:59.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bb22fbf-f0ff-444d-8b02-22e962ee6916",
+        "service_name": "CRM Integration",
+        "status": "Inactive",
+        "api_key": "1a2b3c4d5e6f7g8h9i0j",
+        "api_secret": "s3cr3tK3y",
+        "created_at": "2023-09-14T06:27:51.439Z",
+        "updated_at": "2023-09-14T21:45:12.719Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58e3af78-29dc-46ae-9512-bce08b1a2936",
+        "service_name": "Email Marketing",
+        "status": "Pending",
+        "api_key": "0j9i8h7g6f5e4d3c2b1a",
+        "api_secret": "s3cr3tK3y",
+        "created_at": "2023-09-14T03:49:13.440Z",
+        "updated_at": "2023-09-14T21:54:16.628Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0d823b0-1e90-4e00-b715-344671764c1a",
+        "service_name": "Analytics Platform",
+        "status": "Disabled",
+        "api_key": "abcdefghij1234567890",
+        "api_secret": "s3cr3tK3y",
+        "created_at": "2023-09-14T22:54:31.932Z",
+        "updated_at": "2023-09-14T10:06:45.803Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "492a031c-17b5-468f-acdb-fd4dc5eea709",
+        "service_name": "SMS Gateway",
+        "status": "Enabled",
+        "api_key": "0987654321jihgfedcba",
+        "api_secret": "s3cr3tK3y",
+        "created_at": "2023-09-14T05:35:52.994Z",
+        "updated_at": "2023-09-14T15:30:18.767Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "094297a9-bb68-4038-9c58-f5a8c6d12220",
+        "title": "Software Engineer",
+        "description": "Responsible for developing high-quality software solutions",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T20:17:59.806Z",
+        "updated_at": "2023-09-14T06:30:04.575Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "531858bb-8b7e-4259-9ddd-bc3f738585cb",
+        "title": "Marketing Manager",
+        "description": "Develop and implement marketing strategies",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-15T03:26:11.966Z",
+        "updated_at": "2023-09-14T06:47:58.283Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "87c452e6-d832-4da7-a1a6-ad19e274af72",
+        "title": "Sales Representative",
+        "description": "Identify and acquire new customers",
+        "category": "Sales",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T09:16:57.022Z",
+        "updated_at": "2023-09-14T11:26:33.105Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4a3ef6af-51f6-40fd-aa88-8ff531f46544",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights",
+        "category": "Finance",
+        "experience_level": "Managerial",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-15T01:07:14.906Z",
+        "updated_at": "2023-09-14T05:15:29.679Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "83b75bbb-83bd-4d6f-9ce6-c7d60285edb3",
+        "title": "Project Manager",
+        "description": "Manage project timelines and deliverables",
+        "category": "Project Management",
+        "experience_level": "Executive",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T23:27:46.922Z",
+        "updated_at": "2023-09-14T20:59:59.578Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "0d42f7a4-3348-4f59-9ff0-03ddb8c48b06",
+        "rating": 90514,
+        "comment": "Great company to work with!",
+        "created_at": "2023-09-14T08:48:35.773Z",
+        "updated_at": "2023-09-15T03:02:20.958Z",
+        "job_id": "094297a9-bb68-4038-9c58-f5a8c6d12220",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9741aa8c-139b-4814-aa6e-a8648ee47eda",
+        "rating": 64004,
+        "comment": "Highly recommend their services",
+        "created_at": "2023-09-14T06:40:36.859Z",
+        "updated_at": "2023-09-14T23:54:21.677Z",
+        "job_id": "83b75bbb-83bd-4d6f-9ce6-c7d60285edb3",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff4c964a-e5d3-4a48-83d5-a065fddc4bb9",
+        "rating": 65402,
+        "comment": "Excellent customer support",
+        "created_at": "2023-09-14T09:52:31.197Z",
+        "updated_at": "2023-09-14T20:00:51.090Z",
+        "job_id": "4a3ef6af-51f6-40fd-aa88-8ff531f46544",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd1f2e02-cf79-42ca-b4e4-b2aac7eaa446",
+        "rating": 41850,
+        "comment": "Impressed with their professionalism",
+        "created_at": "2023-09-14T21:26:12.536Z",
+        "updated_at": "2023-09-14T15:30:10.420Z",
+        "job_id": "094297a9-bb68-4038-9c58-f5a8c6d12220",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c09ebbeb-0be5-4b13-874c-edfd3f4bc4a8",
+        "rating": 43476,
+        "comment": "Very satisfied with the results",
+        "created_at": "2023-09-15T03:12:15.825Z",
+        "updated_at": "2023-09-14T09:05:57.145Z",
+        "job_id": "094297a9-bb68-4038-9c58-f5a8c6d12220",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "97cd5269-9268-4720-bff7-b0c66fe3ef14",
+        "amount": 85334,
+        "proposal": "Provide comprehensive solution",
+        "status": "Submitted",
+        "duration": 45150,
+        "created_at": "2023-09-14T21:37:57.422Z",
+        "updated_at": "2023-09-14T11:45:33.579Z",
+        "job_id": "531858bb-8b7e-4259-9ddd-bc3f738585cb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d1cdf76-b951-443a-b3ab-681da56df917",
+        "amount": 85854,
+        "proposal": "Deliver within tight deadlines",
+        "status": "Accepted",
+        "duration": 83663,
+        "created_at": "2023-09-14T20:06:47.673Z",
+        "updated_at": "2023-09-14T05:18:55.905Z",
+        "job_id": "83b75bbb-83bd-4d6f-9ce6-c7d60285edb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6253505-afeb-496c-96eb-3313e54a6606",
+        "amount": 48991,
+        "proposal": "Offer competitive pricing",
+        "status": "Declined",
+        "duration": 1440,
+        "created_at": "2023-09-14T12:47:18.058Z",
+        "updated_at": "2023-09-14T18:32:50.849Z",
+        "job_id": "87c452e6-d832-4da7-a1a6-ad19e274af72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63aec6c9-c7a5-4a98-ab53-a758cb73c1cc",
+        "amount": 74323,
+        "proposal": "Ensure high quality deliverables",
+        "status": "Pending",
+        "duration": 60008,
+        "created_at": "2023-09-14T08:54:21.624Z",
+        "updated_at": "2023-09-14T09:27:46.409Z",
+        "job_id": "83b75bbb-83bd-4d6f-9ce6-c7d60285edb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31800229-3416-4edc-8905-92c8497af75d",
+        "amount": 68097,
+        "proposal": "Customize services to meet specific requirements",
+        "status": "Reviewed",
+        "duration": 19524,
+        "created_at": "2023-09-14T15:20:34.762Z",
+        "updated_at": "2023-09-14T12:45:32.204Z",
+        "job_id": "094297a9-bb68-4038-9c58-f5a8c6d12220",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "844d775f-b8cb-4248-ab5c-8d75c0d2a214",
+        "email": "Samson.Bartoletti@gmail.com",
+        "firstName": "Marquis",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "946b33d1-a8e2-40a1-b475-e58584c680ee",
+        "email": "Luisa.Frami28@gmail.com",
+        "firstName": "Dennis",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48251177",
+        "tenantId": null
+      },
+      {
+        "reference": "4657a393-bf13-4aa1-bb38-e516f80d7601",
+        "email": "Roslyn48@yahoo.com",
+        "firstName": "Joey",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31739912",
+        "tenantId": null
+      },
+      {
+        "reference": "8002ebd2-ce65-441f-96ab-2d727a511d39",
+        "email": "Deshaun_Crooks74@gmail.com",
+        "firstName": "Janice",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12696831",
+        "tenantId": null
+      },
+      {
+        "reference": "bed21d48-39e1-4d32-9f42-446c721abedb",
+        "email": "Kianna.Hudson@gmail.com",
+        "firstName": "Roman",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15687933",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "2120603b-c534-4a16-ae42-b44afc61c018",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "a1b2c3d4e5f6",
+        "api_secret": "1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7",
+        "created_at": "2023-09-14T11:42:20.971Z",
+        "updated_at": "2023-09-14T03:49:19.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d720685-3304-4eb8-9f13-9045efce2736",
+        "service_name": "CRM System",
+        "status": "Inactive",
+        "api_key": "g7h8i9j0k1l2",
+        "api_secret": "8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6",
+        "created_at": "2023-09-14T17:30:41.133Z",
+        "updated_at": "2023-09-14T06:33:04.281Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e789bc9-f66c-43a8-a60a-e0eb8c81602c",
+        "service_name": "Email Marketing",
+        "status": "Pending",
+        "api_key": "m3n4o5p6q7r8",
+        "api_secret": "c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5",
+        "created_at": "2023-09-14T12:18:11.003Z",
+        "updated_at": "2023-09-14T21:33:05.140Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ff620b9-212b-4766-a0a5-e6f5d7bf5252",
+        "service_name": "Analytics Platform",
+        "status": "Disabled",
+        "api_key": "s9t0u1v2w3x4",
+        "api_secret": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4",
+        "created_at": "2023-09-14T12:06:28.693Z",
+        "updated_at": "2023-09-14T11:18:25.578Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5370ec36-8549-4bd5-8ce8-69e74e7a8298",
+        "service_name": "Social Media",
+        "status": "Enabled",
+        "api_key": "y5z6a7b8c9d0",
+        "api_secret": "i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3",
+        "created_at": "2023-09-15T03:24:15.870Z",
+        "updated_at": "2023-09-14T16:53:47.809Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "8ccc6f71-e092-49b6-bf98-1d25f7df869e",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T05:12:10.395Z",
+        "updated_at": "2023-09-14T12:28:20.719Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "99db4758-c7bc-4a49-b076-4ee22bb54d89",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing campaigns",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T22:23:21.255Z",
+        "updated_at": "2023-09-14T05:00:44.448Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a45598a3-6a0c-4fca-99d9-ba07d02ad74f",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and prepare reports",
+        "category": "Finance",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T11:27:54.134Z",
+        "updated_at": "2023-09-14T11:43:22.271Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6596396-f3eb-4ec1-85b2-a2dd04942f85",
+        "title": "Sales Representative",
+        "description": "Identify and acquire new customers",
+        "category": "Sales",
+        "experience_level": "Managerial",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T12:54:14.846Z",
+        "updated_at": "2023-09-14T11:02:53.995Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5aade006-05b5-4d5d-ad93-26842f81ff70",
+        "title": "Product Designer",
+        "description": "Design user-friendly and visually appealing products",
+        "category": "Design",
+        "experience_level": "Executive",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T14:16:11.799Z",
+        "updated_at": "2023-09-14T09:17:16.914Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "27f66de6-0a1c-463f-ad7e-768b6b6c02a7",
+        "rating": 14908,
+        "comment": "Great company to work with",
+        "created_at": "2023-09-15T01:26:51.128Z",
+        "updated_at": "2023-09-14T09:25:03.844Z",
+        "job_id": "8ccc6f71-e092-49b6-bf98-1d25f7df869e",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da7e3acd-273d-40a0-8e99-f13a0550b7e2",
+        "rating": 4977,
+        "comment": "Excellent service and support",
+        "created_at": "2023-09-14T04:52:04.599Z",
+        "updated_at": "2023-09-15T02:48:01.917Z",
+        "job_id": "a45598a3-6a0c-4fca-99d9-ba07d02ad74f",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eff80d5-02b3-4c70-8fd5-a0b92e04fad0",
+        "rating": 2184,
+        "comment": "Highly recommended",
+        "created_at": "2023-09-14T17:12:22.613Z",
+        "updated_at": "2023-09-14T21:07:01.405Z",
+        "job_id": "a45598a3-6a0c-4fca-99d9-ba07d02ad74f",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef5ce24c-f604-4045-8326-d697fb60d30e",
+        "rating": 8626,
+        "comment": "Very professional and reliable",
+        "created_at": "2023-09-15T00:53:13.049Z",
+        "updated_at": "2023-09-14T17:39:19.803Z",
+        "job_id": "5aade006-05b5-4d5d-ad93-26842f81ff70",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8cffcdf5-2bef-4024-9c1f-318c4f15fbbf",
+        "rating": 14814,
+        "comment": "Impressive quality of work",
+        "created_at": "2023-09-14T09:17:01.302Z",
+        "updated_at": "2023-09-14T10:18:45.955Z",
+        "job_id": "a45598a3-6a0c-4fca-99d9-ba07d02ad74f",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "ddf9d9e5-96e2-4f83-ad78-5e33e2f2bdd8",
+        "amount": 75107,
+        "proposal": "Provide detailed project plan and timeline",
+        "status": "Submitted",
+        "duration": 10250,
+        "created_at": "2023-09-14T12:44:31.787Z",
+        "updated_at": "2023-09-14T13:10:12.565Z",
+        "job_id": "c6596396-f3eb-4ec1-85b2-a2dd04942f85",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27303558-b5df-4bbd-a648-6ddf823ee7cf",
+        "amount": 54690,
+        "proposal": "Offer competitive pricing and cost estimates",
+        "status": "Accepted",
+        "duration": 81250,
+        "created_at": "2023-09-14T06:05:31.347Z",
+        "updated_at": "2023-09-14T17:22:14.906Z",
+        "job_id": "a45598a3-6a0c-4fca-99d9-ba07d02ad74f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b68a07ac-b0fb-4e16-833d-df96a4145630",
+        "amount": 92150,
+        "proposal": "Highlight relevant experience and expertise",
+        "status": "Rejected",
+        "duration": 88630,
+        "created_at": "2023-09-14T10:28:02.519Z",
+        "updated_at": "2023-09-14T14:58:31.320Z",
+        "job_id": "8ccc6f71-e092-49b6-bf98-1d25f7df869e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b36514a4-9fcf-469b-a08a-fd5ec41a5f01",
+        "amount": 2938,
+        "proposal": "Ensure timely delivery and customer satisfaction",
+        "status": "Under Review",
+        "duration": 9076,
+        "created_at": "2023-09-14T14:55:58.170Z",
+        "updated_at": "2023-09-14T06:29:04.526Z",
+        "job_id": "8ccc6f71-e092-49b6-bf98-1d25f7df869e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "578bf4e1-5dae-4f1f-9bf3-cea2a83820d9",
+        "amount": 25651,
+        "proposal": "Guarantee exceptional quality and performance",
+        "status": "Withdrawn",
+        "duration": 59656,
+        "created_at": "2023-09-14T08:34:04.549Z",
+        "updated_at": "2023-09-14T20:31:30.324Z",
+        "job_id": "8ccc6f71-e092-49b6-bf98-1d25f7df869e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8f092dd-7d10-41b3-8750-264094d30ad3",
+        "email": "Jocelyn_Kling@gmail.com",
+        "firstName": "Lucious",
+        "lastName": "Zemlak-Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/59.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14b66e88-f8fd-4393-b733-c8e64720f781",
+        "email": "Austin.Cremin@hotmail.com",
+        "firstName": "Russ",
+        "lastName": "Hessel-Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70985861",
+        "tenantId": null
+      },
+      {
+        "reference": "d5c5dfd7-5c6b-49f5-9227-764f34c4b5e9",
+        "email": "Liana_Cummings@hotmail.com",
+        "firstName": "Reginald",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79052918",
+        "tenantId": null
+      },
+      {
+        "reference": "a25604e5-122a-435d-9b41-87fd872631aa",
+        "email": "Maxwell.Spinka@yahoo.com",
+        "firstName": "Wava",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/491.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8b6e69b-07e6-424c-8f08-537c1c3e5081",
+        "email": "Kendrick.Ernser@hotmail.com",
+        "firstName": "Verna",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "1e6caa44-d00e-46bc-9e8f-06ae74a9bc05",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "a1b2c3d4e5",
+        "api_secret": "abcde12345",
+        "created_at": "2023-09-14T20:44:55.107Z",
+        "updated_at": "2023-09-14T18:03:06.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555c02dc-fffa-4cf6-81a5-e7f77f8ef701",
+        "service_name": "CRM Integration",
+        "status": "Inactive",
+        "api_key": "f6g7h8i9j0",
+        "api_secret": "fghij67890",
+        "created_at": "2023-09-14T12:35:56.958Z",
+        "updated_at": "2023-09-14T11:39:00.475Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f57e68-884e-4538-a663-18c350aab015",
+        "service_name": "Email Marketing",
+        "status": "Pending",
+        "api_key": "k1l2m3n4o5",
+        "api_secret": "klmno12345",
+        "created_at": "2023-09-14T19:57:25.659Z",
+        "updated_at": "2023-09-14T22:00:46.457Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e638a3b-0ce1-4728-832d-27f569d5a89c",
+        "service_name": "Analytics Platform",
+        "status": "Disabled",
+        "api_key": "p6q7r8s9t0",
+        "api_secret": "pqrst67890",
+        "created_at": "2023-09-14T04:49:00.584Z",
+        "updated_at": "2023-09-15T03:29:06.892Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23a08fac-1b21-4567-b126-fa7fa9bd092f",
+        "service_name": "SMS Gateway",
+        "status": "Enabled",
+        "api_key": "u1v2w3x4y5",
+        "api_secret": "uvwxy12345z",
+        "created_at": "2023-09-14T18:49:10.392Z",
+        "updated_at": "2023-09-14T08:05:54.710Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "9d528447-add9-4f6f-95b9-3a8b7274d120",
+        "title": "Software Engineer",
+        "description": "Seeking a highly skilled software engineer",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T20:05:59.522Z",
+        "updated_at": "2023-09-14T23:23:04.692Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cf4a30de-66cc-4b7e-bd3a-1fbe5e8301a5",
+        "title": "Marketing Manager",
+        "description": "Looking for an experienced marketing manager",
+        "category": "Marketing",
+        "experience_level": "Junior",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-14T20:41:21.509Z",
+        "updated_at": "2023-09-14T19:34:40.624Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8244f558-ffa5-4bc5-87d9-4c91b341e267",
+        "title": "Sales Representative",
+        "description": "Hiring a motivated sales representative",
+        "category": "Sales",
+        "experience_level": "Mid-Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T15:03:49.698Z",
+        "updated_at": "2023-09-14T10:04:07.429Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ebd91f12-dee7-4f6d-88d6-d4f6f56e2ec0",
+        "title": "Data Analyst",
+        "description": "Join our team as a data analyst",
+        "category": "Finance",
+        "experience_level": "Senior",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T06:01:29.632Z",
+        "updated_at": "2023-09-14T14:49:27.255Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a1021ec1-0ea2-4d58-9404-de005d7deb6b",
+        "title": "Project Manager",
+        "description": "Exciting opportunity for a project manager",
+        "category": "Operations",
+        "experience_level": "Executive",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T16:34:20.372Z",
+        "updated_at": "2023-09-14T03:36:06.821Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "f5856a6f-af88-4bd8-95c0-a321c9fb38bf",
+        "rating": 96083,
+        "comment": "Great company to work with!",
+        "created_at": "2023-09-14T03:37:29.781Z",
+        "updated_at": "2023-09-14T13:26:58.892Z",
+        "job_id": "a1021ec1-0ea2-4d58-9404-de005d7deb6b",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d5444d3-8c3b-4e8c-8c04-bb8e3152a0aa",
+        "rating": 47193,
+        "comment": "Highly recommend their services",
+        "created_at": "2023-09-14T11:13:38.579Z",
+        "updated_at": "2023-09-14T12:16:23.463Z",
+        "job_id": "9d528447-add9-4f6f-95b9-3a8b7274d120",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97d4a8c3-8e18-41ad-9f5a-77e8c5c647ed",
+        "rating": 62147,
+        "comment": "Excellent customer support",
+        "created_at": "2023-09-14T23:28:42.294Z",
+        "updated_at": "2023-09-14T09:49:11.120Z",
+        "job_id": "ebd91f12-dee7-4f6d-88d6-d4f6f56e2ec0",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b1485ee-340f-4e2b-b1d0-e8ed4a4a2a24",
+        "rating": 39696,
+        "comment": "Impressed with their professionalism",
+        "created_at": "2023-09-14T21:22:02.254Z",
+        "updated_at": "2023-09-14T17:13:13.625Z",
+        "job_id": "8244f558-ffa5-4bc5-87d9-4c91b341e267",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5629390a-472f-4af0-8bfc-7fe3c859bccf",
+        "rating": 10954,
+        "comment": "Top-notch quality",
+        "created_at": "2023-09-14T10:20:53.437Z",
+        "updated_at": "2023-09-14T17:44:31.438Z",
+        "job_id": "cf4a30de-66cc-4b7e-bd3a-1fbe5e8301a5",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "3fae8f40-db41-4639-9fe5-8cfaa9c1821a",
+        "amount": 31629,
+        "proposal": "Offering competitive pricing",
+        "status": "Submitted",
+        "duration": 76609,
+        "created_at": "2023-09-14T09:28:02.004Z",
+        "updated_at": "2023-09-14T20:46:16.669Z",
+        "job_id": "8244f558-ffa5-4bc5-87d9-4c91b341e267",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "037cad1d-0c80-4039-b623-3b18b885ea25",
+        "amount": 46485,
+        "proposal": "Providing exceptional value",
+        "status": "Accepted",
+        "duration": 82631,
+        "created_at": "2023-09-15T01:12:41.700Z",
+        "updated_at": "2023-09-14T04:37:58.286Z",
+        "job_id": "a1021ec1-0ea2-4d58-9404-de005d7deb6b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8772d419-12f2-41df-8047-2958266d82ef",
+        "amount": 79659,
+        "proposal": "Delivering high-quality work",
+        "status": "Declined",
+        "duration": 42586,
+        "created_at": "2023-09-14T08:13:57.868Z",
+        "updated_at": "2023-09-14T06:21:58.998Z",
+        "job_id": "cf4a30de-66cc-4b7e-bd3a-1fbe5e8301a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3462a6f3-5e76-49b1-baec-539e0537b783",
+        "amount": 9650,
+        "proposal": "Ensuring timely completion",
+        "status": "Under Review",
+        "duration": 370,
+        "created_at": "2023-09-14T19:09:22.944Z",
+        "updated_at": "2023-09-14T04:07:51.993Z",
+        "job_id": "ebd91f12-dee7-4f6d-88d6-d4f6f56e2ec0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c7f5524-0324-403a-bcfa-d5aa70d1b512",
+        "amount": 28806,
+        "proposal": "Offering innovative solutions",
+        "status": "Expired",
+        "duration": 62741,
+        "created_at": "2023-09-14T04:36:03.374Z",
+        "updated_at": "2023-09-15T01:51:22.669Z",
+        "job_id": "9d528447-add9-4f6f-95b9-3a8b7274d120",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c6f4d24e-4615-4106-a37b-810f015af40a",
+        "email": "Jedediah_Pfannerstill@gmail.com",
+        "firstName": "Eusebio",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47353763",
+        "tenantId": null
+      },
+      {
+        "reference": "d5cb427a-e959-4490-af88-fbada6c41a12",
+        "email": "Jakob.Hayes53@yahoo.com",
+        "firstName": "Tierra",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60393157",
+        "tenantId": null
+      },
+      {
+        "reference": "bae8413d-698a-4f57-99c9-88629d627b96",
+        "email": "Dasia.Becker@hotmail.com",
+        "firstName": "Milton",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3d97d7f-3a2d-44de-9631-2cd2beb23457",
+        "email": "Helen.Murazik@hotmail.com",
+        "firstName": "Juana",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80951859",
+        "tenantId": null
+      },
+      {
+        "reference": "78de2403-5cea-4400-8a9e-bbd1864d679b",
+        "email": "Rosalyn.Becker87@yahoo.com",
+        "firstName": "Enrico",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20835807",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "external_integration": [
+      {
+        "id": "7ea6403d-191d-4a1f-9704-3ee59efcd269",
+        "service_name": "Payment Gateway",
+        "status": "Active",
+        "api_key": "abc123",
+        "api_secret": "secret1",
+        "created_at": "2023-09-15T02:54:17.655Z",
+        "updated_at": "2023-09-14T21:52:06.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3ec03cb-6ae8-4c19-a56f-93e01c9c6c29",
+        "service_name": "Email Marketing",
+        "status": "Inactive",
+        "api_key": "def456",
+        "api_secret": "secret2",
+        "created_at": "2023-09-14T07:47:14.105Z",
+        "updated_at": "2023-09-14T18:42:08.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "011ca3a6-2f9e-4953-a85c-4a9b08e34b5b",
+        "service_name": "SMS Gateway",
+        "status": "Pending",
+        "api_key": "ghi789",
+        "api_secret": "secret3",
+        "created_at": "2023-09-14T21:13:09.897Z",
+        "updated_at": "2023-09-14T04:43:34.737Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "464b1856-4c1b-4865-bda8-e3d03dfb616f",
+        "service_name": "Analytics Platform",
+        "status": "Disabled",
+        "api_key": "jkl012",
+        "api_secret": "secret4",
+        "created_at": "2023-09-14T10:21:09.026Z",
+        "updated_at": "2023-09-14T18:27:08.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1c4aedc-bd7f-4b2f-86c6-66122a05d16b",
+        "service_name": "CRM System",
+        "status": "Enabled",
+        "api_key": "mno345",
+        "api_secret": "secret5",
+        "created_at": "2023-09-15T00:13:45.369Z",
+        "updated_at": "2023-09-14T21:38:36.029Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "e5de7181-a66e-4e64-bed2-f786acc11f76",
+        "title": "Software Engineer",
+        "description": "Seeking a talented individual",
+        "category": "IT",
+        "experience_level": "Entry Level",
+        "salary_range": "$50,000 - $70,000",
+        "created_at": "2023-09-14T09:02:07.155Z",
+        "updated_at": "2023-09-14T17:26:36.642Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f3885ca-3688-40fb-ba5d-a84cdcc65c50",
+        "title": "Marketing Manager",
+        "description": "Responsible for developing strategies",
+        "category": "Marketing",
+        "experience_level": "Mid Level",
+        "salary_range": "$70,000 - $90,000",
+        "created_at": "2023-09-15T01:38:50.723Z",
+        "updated_at": "2023-09-14T14:44:48.161Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "be2d9dba-caa9-47a7-9ca1-7d46d8c92a42",
+        "title": "Sales Representative",
+        "description": "Manage client relationships",
+        "category": "Sales",
+        "experience_level": "Senior Level",
+        "salary_range": "$90,000 - $110,000",
+        "created_at": "2023-09-14T08:43:54.081Z",
+        "updated_at": "2023-09-14T09:21:29.410Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fa966781-e075-4f8a-a672-b9393bb11b21",
+        "title": "Data Analyst",
+        "description": "Analyze data and generate insights",
+        "category": "Finance",
+        "experience_level": "Manager",
+        "salary_range": "$110,000 - $130,000",
+        "created_at": "2023-09-14T10:23:57.855Z",
+        "updated_at": "2023-09-14T21:39:26.625Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f5b0d5fd-9564-43fa-af05-b508c15c11c5",
+        "title": "Product Manager",
+        "description": "Lead product development",
+        "category": "Operations",
+        "experience_level": "Director",
+        "salary_range": "$130,000 - $150,000",
+        "created_at": "2023-09-14T03:52:33.345Z",
+        "updated_at": "2023-09-14T13:26:35.455Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "95f392cf-cccf-43de-ba05-623ee66ee99a",
+        "rating": 71198,
+        "comment": "Great service!",
+        "created_at": "2023-09-14T15:19:40.923Z",
+        "updated_at": "2023-09-14T07:18:40.991Z",
+        "job_id": "f5b0d5fd-9564-43fa-af05-b508c15c11c5",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "947f55fd-f014-4a3e-9b64-19b606df0cf9",
+        "rating": 1362,
+        "comment": "Highly recommended",
+        "created_at": "2023-09-14T11:55:25.940Z",
+        "updated_at": "2023-09-14T22:35:14.613Z",
+        "job_id": "fa966781-e075-4f8a-a672-b9393bb11b21",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97b8b023-9065-4970-bc25-4995ece2e74f",
+        "rating": 66809,
+        "comment": "Excellent product quality",
+        "created_at": "2023-09-14T10:14:42.767Z",
+        "updated_at": "2023-09-15T02:48:55.944Z",
+        "job_id": "e5de7181-a66e-4e64-bed2-f786acc11f76",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54281416-134a-46fe-b183-724cad3556ee",
+        "rating": 27446,
+        "comment": "Outstanding customer support",
+        "created_at": "2023-09-14T16:07:52.198Z",
+        "updated_at": "2023-09-14T05:16:39.739Z",
+        "job_id": "4f3885ca-3688-40fb-ba5d-a84cdcc65c50",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dc4d780-4be8-487e-b6d4-f3bfbffe835d",
+        "rating": 62273,
+        "comment": "Very satisfied",
+        "created_at": "2023-09-14T11:20:27.306Z",
+        "updated_at": "2023-09-14T13:13:55.686Z",
+        "job_id": "4f3885ca-3688-40fb-ba5d-a84cdcc65c50",
+        "reviewee_id": "user_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bid": [
+      {
+        "id": "8488f25f-8700-4a6b-b43d-77b5e90e7213",
+        "amount": 72927,
+        "proposal": "Provide a detailed project plan",
+        "status": "Submitted",
+        "duration": 70179,
+        "created_at": "2023-09-14T05:55:20.852Z",
+        "updated_at": "2023-09-14T16:35:01.251Z",
+        "job_id": "fa966781-e075-4f8a-a672-b9393bb11b21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8589b76d-ad28-4eaf-ab17-72747999431c",
+        "amount": 85366,
+        "proposal": "Deliver high-quality work",
+        "status": "Accepted",
+        "duration": 36783,
+        "created_at": "2023-09-14T06:04:26.904Z",
+        "updated_at": "2023-09-15T03:19:30.363Z",
+        "job_id": "4f3885ca-3688-40fb-ba5d-a84cdcc65c50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25be69c0-01bb-45bf-a1c1-fa0ca0ce72fd",
+        "amount": 90413,
+        "proposal": "Ensure timely completion",
+        "status": "Rejected",
+        "duration": 966,
+        "created_at": "2023-09-14T20:27:01.031Z",
+        "updated_at": "2023-09-15T02:44:11.478Z",
+        "job_id": "fa966781-e075-4f8a-a672-b9393bb11b21",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3e86dd-d80d-4d68-9bbe-3add04b8f1fc",
+        "amount": 78786,
+        "proposal": "Offer competitive pricing",
+        "status": "Under Review",
+        "duration": 54162,
+        "created_at": "2023-09-14T19:02:47.057Z",
+        "updated_at": "2023-09-14T07:38:59.916Z",
+        "job_id": "e5de7181-a66e-4e64-bed2-f786acc11f76",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "970fd366-e052-4dd2-85ff-eb8e14c5062d",
+        "amount": 29918,
+        "proposal": "Guarantee customer satisfaction",
+        "status": "Completed",
+        "duration": 62,
+        "created_at": "2023-09-14T03:53:02.846Z",
+        "updated_at": "2023-09-14T16:07:50.625Z",
+        "job_id": "be2d9dba-caa9-47a7-9ca1-7d46d8c92a42",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c547aa83-6a55-490b-b0cf-818e4e9e544c",
+        "email": "Ellsworth_Morissette28@gmail.com",
+        "firstName": "Cornell",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/147.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8cd91db-9bd9-43d2-bc90-3e3f74c3ee2f",
+        "email": "Eloise_Littel@yahoo.com",
+        "firstName": "Greyson",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86978138",
+        "tenantId": null
+      },
+      {
+        "reference": "2c5f75e5-d0b4-43e5-8361-95970153f0e0",
+        "email": "Michel24@yahoo.com",
+        "firstName": "Toney",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1035.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab32fc6f-1ddc-48b6-82f7-d5af2d705261",
+        "email": "Donato_Stark@gmail.com",
+        "firstName": "Anya",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "864ffc8a-925f-4225-86b4-9c4251f44091",
+        "email": "Therese_Schowalter90@gmail.com",
+        "firstName": "Kianna",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
